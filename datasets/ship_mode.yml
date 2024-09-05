@@ -2,17 +2,17 @@ unique_name: ship_mode
 object_type: dataset
 label: ship_mode
 columns:
-  - name: sm_ship_mode_sk
-    data_type: long
-  - name: sm_ship_mode_id
+  - name: SM_SHIP_MODE_SK
+    data_type: decimal(38,0)
+  - name: SM_SHIP_MODE_ID
     data_type: string
-  - name: sm_type
+  - name: SM_TYPE
     data_type: string
-  - name: sm_code
+  - name: SM_CODE
     data_type: string
-  - name: sm_carrier
+  - name: SM_CARRIER
     data_type: string
-  - name: sm_contract
+  - name: SM_CONTRACT
     data_type: string
 connection_id: wh-connection
 table: ship_mode

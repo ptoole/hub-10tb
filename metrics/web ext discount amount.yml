@@ -3,7 +3,7 @@ object_type: metric
 label: web ext discount amount
 description: sum of ws_ext_discount_amt
 calculation_method: sum
-column: ws_ext_discount_amt
+column: WS_EXT_DISCOUNT_AMT
 dataset: web_sales
 format: $#,##0.00
 unrelated_dimensions_handling: empty

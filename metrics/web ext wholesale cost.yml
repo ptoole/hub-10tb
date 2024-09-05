@@ -3,7 +3,7 @@ object_type: metric
 label: web ext wholesale cost
 description: sum of ws_ext_wholesale_cost
 calculation_method: sum
-column: ws_ext_wholesale_cost
+column: WS_EXT_WHOLESALE_COST
 dataset: web_sales
 format: $#,##0.00
 unrelated_dimensions_handling: empty

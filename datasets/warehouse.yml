@@ -2,33 +2,33 @@ unique_name: warehouse
 object_type: dataset
 label: warehouse
 columns:
-  - name: w_warehouse_sk
-    data_type: long
-  - name: w_warehouse_id
+  - name: W_WAREHOUSE_SK
+    data_type: decimal(38,0)
+  - name: W_WAREHOUSE_ID
     data_type: string
-  - name: w_warehouse_name
+  - name: W_WAREHOUSE_NAME
     data_type: string
-  - name: w_warehouse_sq_ft
-    data_type: long
-  - name: w_street_number
+  - name: W_WAREHOUSE_SQ_FT
+    data_type: decimal(38,0)
+  - name: W_STREET_NUMBER
     data_type: string
-  - name: w_street_name
+  - name: W_STREET_NAME
     data_type: string
-  - name: w_street_type
+  - name: W_STREET_TYPE
     data_type: string
-  - name: w_suite_number
+  - name: W_SUITE_NUMBER
     data_type: string
-  - name: w_city
+  - name: W_CITY
     data_type: string
-  - name: w_county
+  - name: W_COUNTY
     data_type: string
-  - name: w_state
+  - name: W_STATE
     data_type: string
-  - name: w_zip
+  - name: W_ZIP
     data_type: string
-  - name: w_country
+  - name: W_COUNTRY
     data_type: string
-  - name: w_gmt_offset
-    data_type: decimal(38,9)
+  - name: W_GMT_OFFSET
+    data_type: decimal(5,2)
 connection_id: wh-connection
 table: warehouse

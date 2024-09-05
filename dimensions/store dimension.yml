@@ -21,62 +21,62 @@ hierarchies:
             dataset: store
             folder: store attributes
             key_columns:
-              - s_floor_space
-            name_column: s_floor_space
-            sort_column: s_floor_space
+              - S_FLOOR_SPACE
+            name_column: S_FLOOR_SPACE
+            sort_column: S_FLOOR_SPACE
 
           - unique_name: store number of employees
             label: store number of employees
             dataset: store
             folder: store attributes
             key_columns:
-              - s_number_employees
-            name_column: s_number_employees
-            sort_column: s_number_employees
+              - S_NUMBER_EMPLOYEES
+            name_column: S_NUMBER_EMPLOYEES
+            sort_column: S_NUMBER_EMPLOYEES
 
           - unique_name: store name
             label: store name
             dataset: store
             folder: store attributes
             key_columns:
-              - s_store_name
-            name_column: s_store_name
-            sort_column: s_store_name
+              - S_STORE_NAME
+            name_column: S_STORE_NAME
+            sort_column: S_STORE_NAME
 
 level_attributes:
   - unique_name: store country
     label: store country
     dataset: store
     key_columns:
-      - s_country
-    name_column: s_country
+      - S_COUNTRY
+    name_column: S_COUNTRY
 
   - unique_name: store state
     label: store state
     dataset: store
     key_columns:
-      - s_country
-      - s_state
-    name_column: s_state
+      - S_COUNTRY
+      - S_STATE
+    name_column: S_STATE
 
   - unique_name: store county
     label: store county
     dataset: store
     key_columns:
-      - s_country
-      - s_state
-      - s_county
-    name_column: s_county
+      - S_COUNTRY
+      - S_STATE
+      - S_COUNTY
+    name_column: S_COUNTY
 
   - unique_name: store city
     label: store city
     dataset: store
     key_columns:
-      - s_country
-      - s_state
-      - s_county
-      - s_city
-    name_column: s_city
+      - S_COUNTRY
+      - S_STATE
+      - S_COUNTY
+      - S_CITY
+    name_column: S_CITY
 
   - unique_name: store number
     label: store number
@@ -84,5 +84,5 @@ level_attributes:
     is_hidden: true
     is_unique_key: true
     key_columns:
-      - s_store_sk
-    name_column: s_store_sk
+      - S_STORE_SK
+    name_column: S_STORE_SK

@@ -3,7 +3,7 @@ object_type: metric
 label: web net profit
 description: sum of ws_net_profit
 calculation_method: sum
-column: ws_net_profit
+column: WS_NET_PROFIT
 dataset: web_sales
 format: $#,##0.00
 unrelated_dimensions_handling: empty

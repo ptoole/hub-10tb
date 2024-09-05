@@ -18,50 +18,50 @@ hierarchies:
             dataset: customer
             folder: customer information
             key_columns:
-              - c_preferred_cust_flag
-            name_column: c_preferred_cust_flag
-            sort_column: c_preferred_cust_flag
+              - C_PREFERRED_CUST_FLAG
+            name_column: C_PREFERRED_CUST_FLAG
+            sort_column: C_PREFERRED_CUST_FLAG
 level_attributes:
   - unique_name: customer city
     label: customer city
     dataset: customer_address
     key_columns:
-      - ca_address_id
-    name_column: ca_city
+      - CA_ADDRESS_ID
+    name_column: CA_CITY
   - unique_name: customer country
     label: customer country
     dataset: customer_address
     key_columns:
-      - ca_country
-    name_column: ca_country
+      - CA_COUNTRY
+    name_column: CA_COUNTRY
   - unique_name: customer county
     label: customer county
     dataset: customer_address
     key_columns:
-      - ca_county
-      - ca_state
-    name_column: ca_county
+      - CA_COUNTY
+      - CA_STATE
+    name_column: CA_COUNTY
   - unique_name: customer number
     label: customer number
     dataset: customer
     key_columns:
-      - c_customer_sk
-    name_column: c_customer_sk
+      - C_CUSTOMER_SK
+    name_column: C_CUSTOMER_SK
   - unique_name: customer state
     label: customer state
     dataset: customer_address
     key_columns:
-      - ca_state
-      - ca_country
-    name_column: ca_state
+      - CA_STATE
+      - CA_COUNTRY
+    name_column: CA_STATE
 modeler_metadata:
-  modified: 'false'
   version: 0
+  modified: 'false'
 relationships:
   - from:
       dataset: customer
       join_columns:
-        - c_customer_id
+        - C_CUSTOMER_ID
     to:
       level: customer city
     type: snowflake

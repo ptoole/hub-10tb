@@ -3,7 +3,7 @@ object_type: metric
 label: web customer count
 description: non distinct count of ws_bill_customer_sk
 calculation_method: count non-null
-column: ws_bill_customer_sk
+column: WS_BILL_CUSTOMER_SK
 dataset: web_sales
 format: general number
 unrelated_dimensions_handling: empty

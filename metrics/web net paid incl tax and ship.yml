@@ -3,7 +3,7 @@ object_type: metric
 label: web net paid incl tax and ship
 description: sum of ws_net_paid_inc_ship_tax
 calculation_method: sum
-column: ws_net_paid_inc_ship_tax
+column: WS_NET_PAID_INC_SHIP_TAX
 dataset: web_sales
 format: $#,##0.00
 unrelated_dimensions_handling: empty

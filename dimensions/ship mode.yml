@@ -20,31 +20,31 @@ level_attributes:
   - unique_name: ship code
     label: ship code
     dataset: ship_mode
-    name_column: sm_code
+    name_column: SM_CODE
     key_columns:
-      - sm_code
+      - SM_CODE
 
   - unique_name: ship mode type
     label: ship mode type
     dataset: ship_mode
-    name_column: sm_type
+    name_column: SM_TYPE
     key_columns:
-      - sm_type
-      - sm_code
+      - SM_TYPE
+      - SM_CODE
   
   - unique_name: carrier
     label: carrier
     dataset: ship_mode
-    name_column: sm_carrier
+    name_column: SM_CARRIER
     key_columns:
-      - sm_carrier
-      - sm_code
-      - sm_type
+      - SM_CARRIER
+      - SM_CODE
+      - SM_TYPE
 
   - unique_name: ship mode
     label: ship mode
     is_hidden: true
     dataset: ship_mode
-    name_column: sm_ship_mode_sk
+    name_column: SM_SHIP_MODE_SK
     key_columns:
-      - sm_ship_mode_sk
+      - SM_SHIP_MODE_SK

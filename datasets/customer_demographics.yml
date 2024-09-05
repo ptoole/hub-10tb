@@ -2,23 +2,23 @@ unique_name: customer_demographics
 object_type: dataset
 label: customer_demographics
 columns:
-  - name: cd_demo_sk
-    data_type: long
-  - name: cd_gender
+  - name: CD_DEMO_SK
+    data_type: decimal(38,0)
+  - name: CD_GENDER
     data_type: string
-  - name: cd_marital_status
+  - name: CD_MARITAL_STATUS
     data_type: string
-  - name: cd_education_status
+  - name: CD_EDUCATION_STATUS
     data_type: string
-  - name: cd_purchase_estimate
-    data_type: long
-  - name: cd_credit_rating
+  - name: CD_PURCHASE_ESTIMATE
+    data_type: decimal(38,0)
+  - name: CD_CREDIT_RATING
     data_type: string
-  - name: cd_dep_count
-    data_type: long
-  - name: cd_dep_employed_count
-    data_type: long
-  - name: cd_dep_college_count
-    data_type: long
+  - name: CD_DEP_COUNT
+    data_type: decimal(38,0)
+  - name: CD_DEP_EMPLOYED_COUNT
+    data_type: decimal(38,0)
+  - name: CD_DEP_COLLEGE_COUNT
+    data_type: decimal(38,0)
 connection_id: wh-connection
 table: customer_demographics

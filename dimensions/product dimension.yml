@@ -22,8 +22,8 @@ level_attributes:
     dataset: item
     is_unique_key: false
     key_columns:
-      - i_category
-    name_column: i_category
+      - I_CATEGORY
+    name_column: I_CATEGORY
 
   - unique_name: class
     label: class
@@ -31,9 +31,9 @@ level_attributes:
     dataset: item
     is_unique_key: false
     key_columns:
-    - i_class
-    - i_category
-    name_column: i_class
+    - I_CLASS
+    - I_CATEGORY
+    name_column: I_CLASS
 
   - unique_name: brand
     label: brand
@@ -41,10 +41,10 @@ level_attributes:
     dataset: item
     is_unique_key: false
     key_columns:
-      - i_brand
-      - i_class
-      - i_category
-    name_column: i_brand
+      - I_BRAND
+      - I_CLASS
+      - I_CATEGORY
+    name_column: I_BRAND
 
   - unique_name: name
     label: name
@@ -52,6 +52,6 @@ level_attributes:
     dataset: item
     is_unique_key: true
     key_columns:
-      - i_item_sk
-    name_column: i_product_name
-    sort_column: i_product_name
+      - I_ITEM_SK
+    name_column: I_PRODUCT_NAME
+    sort_column: I_PRODUCT_NAME

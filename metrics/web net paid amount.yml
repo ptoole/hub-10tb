@@ -3,7 +3,7 @@ object_type: metric
 label: web net paid amount
 description: sum of ws_net_paid
 calculation_method: sum
-column: ws_net_paid
+column: WS_NET_PAID
 dataset: web_sales
 format: $#,##0.00
 unrelated_dimensions_handling: empty

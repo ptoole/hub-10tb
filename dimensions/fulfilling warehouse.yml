@@ -22,18 +22,18 @@ hierarchies:
             dataset: warehouse
             folder: fulfillment
             key_columns:
-              - w_warehouse_name
-            name_column: w_warehouse_name
-            sort_column: w_warehouse_name
+              - W_WAREHOUSE_NAME
+            name_column: W_WAREHOUSE_NAME
+            sort_column: W_WAREHOUSE_NAME
 
           - unique_name: d_warehouse_square_feet
             label: warehouse square feet
             dataset: warehouse
             folder: fulfillment
             key_columns:
-              - w_warehouse_sq_ft
-            name_column: w_warehouse_sq_ft
-            sort_column: w_warehouse_sq_ft
+              - W_WAREHOUSE_SQ_FT 
+            name_column: W_WAREHOUSE_SQ_FT
+            sort_column: W_WAREHOUSE_SQ_FT
 
 level_attributes:
   - unique_name: warehouse number
@@ -42,42 +42,42 @@ level_attributes:
     is_hidden: true
     is_unique_key: true
     key_columns:
-      - w_warehouse_sk
-    name_column: w_warehouse_sk
+      - W_WAREHOUSE_SK
+    name_column: W_WAREHOUSE_SK
 
   - unique_name: warehouse id
     label: warehouse id
     dataset: warehouse
     key_columns:
-      - w_warehouse_id
-    name_column: w_warehouse_id
+      - W_WAREHOUSE_ID
+    name_column: W_WAREHOUSE_ID
 
   - unique_name: warehouse city
     label: warehouse city
     dataset: warehouse
     key_columns:
-      - w_country
-      - w_state
-      - w_city
-    name_column: w_city
+      - W_COUNTRY
+      - W_STATE
+      - W_CITY
+    name_column: W_CITY
 
   - unique_name: warehouse country
     label: warehouse country
     dataset: warehouse
     key_columns:
-      - w_country
-    name_column: w_country
+      - W_COUNTRY
+    name_column: W_COUNTRY
 
   - unique_name: warehouse county
     label: warehouse county
     dataset: warehouse
     key_columns:
-      - w_county
-    name_column: w_county
+      - W_COUNTY
+    name_column: W_COUNTY
 
   - unique_name: warehouse state
     label: warehouse state
     dataset: warehouse
     key_columns:
-      - w_state
-    name_column: w_state
+      - W_STATE
+    name_column: W_STATE

@@ -2,49 +2,49 @@ unique_name: item
 object_type: dataset
 label: item
 columns:
-  - name: i_item_sk
-    data_type: long
-  - name: i_item_id
+  - name: I_ITEM_SK
+    data_type: decimal(38,0)
+  - name: I_ITEM_ID
     data_type: string
-  - name: i_rec_start_date
+  - name: I_REC_START_DATE
     data_type: date
-  - name: i_rec_end_date
+  - name: I_REC_END_DATE
     data_type: date
-  - name: i_item_desc
+  - name: I_ITEM_DESC
     data_type: string
-  - name: i_current_price
-    data_type: decimal(38,9)
-  - name: i_wholesale_cost
-    data_type: decimal(38,9)
-  - name: i_brand_id
-    data_type: long
-  - name: i_brand
+  - name: I_CURRENT_PRICE
+    data_type: decimal(7,2)
+  - name: I_WHOLESALE_COST
+    data_type: decimal(7,2)
+  - name: I_BRAND_ID
+    data_type: decimal(38,0)
+  - name: I_BRAND
     data_type: string
-  - name: i_class_id
-    data_type: long
-  - name: i_class
+  - name: I_CLASS_ID
+    data_type: decimal(38,0)
+  - name: I_CLASS
     data_type: string
-  - name: i_category_id
-    data_type: long
-  - name: i_category
+  - name: I_CATEGORY_ID
+    data_type: decimal(38,0)
+  - name: I_CATEGORY
     data_type: string
-  - name: i_manufact_id
-    data_type: long
-  - name: i_manufact
+  - name: I_MANUFACT_ID
+    data_type: decimal(38,0)
+  - name: I_MANUFACT
     data_type: string
-  - name: i_size
+  - name: I_SIZE
     data_type: string
-  - name: i_formulation
+  - name: I_FORMULATION
     data_type: string
-  - name: i_color
+  - name: I_COLOR
     data_type: string
-  - name: i_units
+  - name: I_UNITS
     data_type: string
-  - name: i_container
+  - name: I_CONTAINER
     data_type: string
-  - name: i_manager_id
-    data_type: long
-  - name: i_product_name
+  - name: I_MANAGER_ID
+    data_type: decimal(38,0)
+  - name: I_PRODUCT_NAME
     data_type: string
 connection_id: wh-connection
 table: item

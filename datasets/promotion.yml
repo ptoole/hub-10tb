@@ -2,43 +2,43 @@ unique_name: promotion
 object_type: dataset
 label: promotion
 columns:
-  - name: p_promo_sk
-    data_type: long
-  - name: p_promo_id
+  - name: P_PROMO_SK
+    data_type: decimal(38,0)
+  - name: P_PROMO_ID
     data_type: string
-  - name: p_start_date_sk
-    data_type: long
-  - name: p_end_date_sk
-    data_type: long
-  - name: p_item_sk
-    data_type: long
-  - name: p_cost
-    data_type: decimal(38,9)
-  - name: p_response_target
-    data_type: long
-  - name: p_promo_name
+  - name: P_START_DATE_SK
+    data_type: decimal(38,0)
+  - name: P_END_DATE_SK
+    data_type: decimal(38,0)
+  - name: P_ITEM_SK
+    data_type: decimal(38,0)
+  - name: P_COST
+    data_type: decimal(15,2)
+  - name: P_RESPONSE_TARGET
+    data_type: decimal(38,0)
+  - name: P_PROMO_NAME
     data_type: string
-  - name: p_channel_dmail
+  - name: P_CHANNEL_DMAIL
     data_type: string
-  - name: p_channel_email
+  - name: P_CHANNEL_EMAIL
     data_type: string
-  - name: p_channel_catalog
+  - name: P_CHANNEL_CATALOG
     data_type: string
-  - name: p_channel_tv
+  - name: P_CHANNEL_TV
     data_type: string
-  - name: p_channel_radio
+  - name: P_CHANNEL_RADIO
     data_type: string
-  - name: p_channel_press
+  - name: P_CHANNEL_PRESS
     data_type: string
-  - name: p_channel_event
+  - name: P_CHANNEL_EVENT
     data_type: string
-  - name: p_channel_demo
+  - name: P_CHANNEL_DEMO
     data_type: string
-  - name: p_channel_details
+  - name: P_CHANNEL_DETAILS
     data_type: string
-  - name: p_purpose
+  - name: P_PURPOSE
     data_type: string
-  - name: p_discount_active
+  - name: P_DISCOUNT_ACTIVE
     data_type: string
 connection_id: wh-connection
 table: promotion

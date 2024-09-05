@@ -14,16 +14,16 @@ hierarchies:
             dataset: customer_demographics
             folder: customer information
             key_columns:
-              - cd_credit_rating
-            name_column: cd_credit_rating
+              - CD_CREDIT_RATING
+            name_column: CD_CREDIT_RATING
             sort_column: cd_credit_rating
           - unique_name: gender
             label: gender
             dataset: customer_demographics
             folder: customer information
             key_columns:
-              - cd_gender
-            name_column: cd_gender
+              - CD_GENDER
+            name_column: CD_GENDER
             sort_column: cd_gender
 level_attributes:
   - unique_name: customer number
@@ -32,7 +32,7 @@ level_attributes:
     is_hidden: true
     is_unique_key: true
     key_columns:
-      - cd_demo_sk
-    name_column: cd_demo_sk
+      - CD_DEMO_SK
+    name_column: CD_DEMO_SK
     sort_column: cd_demo_sk
 type: standard

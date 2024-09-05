@@ -3,7 +3,7 @@ object_type: metric
 label: web ext ship cost
 description: sum of ws_ext_ship_cost
 calculation_method: sum
-column: ws_ext_ship_cost
+column: WS_EXT_SHIP_COST
 dataset: web_sales
 format: general number
 unrelated_dimensions_handling: empty

@@ -2,41 +2,41 @@ unique_name: customer
 object_type: dataset
 label: customer
 columns:
-  - name: c_customer_sk
-    data_type: long
-  - name: c_customer_id
+  - name: C_CUSTOMER_SK
+    data_type: decimal(38,0)
+  - name: C_CUSTOMER_ID
     data_type: string
-  - name: c_current_cdemo_sk
-    data_type: long
-  - name: c_current_hdemo_sk
-    data_type: long
-  - name: c_current_addr_sk
-    data_type: long
-  - name: c_first_shipto_date_sk
-    data_type: long
-  - name: c_first_sales_date_sk
-    data_type: long
-  - name: c_salutation
+  - name: C_CURRENT_CDEMO_SK
+    data_type: decimal(38,0)
+  - name: C_CURRENT_HDEMO_SK
+    data_type: decimal(38,0)
+  - name: C_CURRENT_ADDR_SK
+    data_type: decimal(38,0)
+  - name: C_FIRST_SHIPTO_DATE_SK
+    data_type: decimal(38,0)
+  - name: C_FIRST_SALES_DATE_SK
+    data_type: decimal(38,0)
+  - name: C_SALUTATION
     data_type: string
-  - name: c_first_name
+  - name: C_FIRST_NAME
     data_type: string
-  - name: c_last_name
+  - name: C_LAST_NAME
     data_type: string
-  - name: c_preferred_cust_flag
+  - name: C_PREFERRED_CUST_FLAG
     data_type: string
-  - name: c_birth_day
-    data_type: long
-  - name: c_birth_month
-    data_type: long
-  - name: c_birth_year
-    data_type: long
-  - name: c_birth_country
+  - name: C_BIRTH_DAY
+    data_type: decimal(38,0)
+  - name: C_BIRTH_MONTH
+    data_type: decimal(38,0)
+  - name: C_BIRTH_YEAR
+    data_type: decimal(38,0)
+  - name: C_BIRTH_COUNTRY
     data_type: string
-  - name: c_login
+  - name: C_LOGIN
     data_type: string
-  - name: c_email_address
+  - name: C_EMAIL_ADDRESS
     data_type: string
-  - name: c_last_review_date
+  - name: C_LAST_REVIEW_DATE
     data_type: string
 connection_id: wh-connection
 table: customer
