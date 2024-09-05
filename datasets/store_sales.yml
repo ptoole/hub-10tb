@@ -8,7 +8,7 @@ columns:
   - name: ss_purchase_amt
     data_type: decimal(14,6)
     sql: >-
-      ((ss_ext_list_price-ss_ext_wholesale_cost-ss_ext_discount_amt)+ss_ext_sales_price)/2
+      ((SS_EXT_LIST_PRICE-SS_EXT_WHOLESALE_COST-SS_EXT_DISCOUNT_AMT)+SS_EXT_LIST_PRICE)/2
   - name: SS_SOLD_DATE_SK
     data_type: decimal(38,0)
   - name: SS_SOLD_TIME_SK

@@ -4,10 +4,10 @@ label: web_sales
 columns:
   - name: ws_sales_net_paid
     data_type: decimal(38,2)
-    sql: ws_net_paid*ws_quantity
+    sql: WS_NET_PAID*WS_QUANTITY
   - name: ws_web_sales
     data_type: decimal(38,2)
-    sql: ws_ext_sales_price*ws_quantity
+    sql: WS_EXT_SALES_PRICE*WS_QUANTITY
   - name: ws_row_count
     data_type: int
     sql: '1'
